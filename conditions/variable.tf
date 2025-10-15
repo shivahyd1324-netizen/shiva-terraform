@@ -1,0 +1,3 @@
+variable "envirorment" {
+    default = "qa"
+}
