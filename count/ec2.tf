@@ -7,6 +7,7 @@ resource "aws_instance" "terraform4" {
     tags = {
         Name = var.instances[count.index]
         Terraform = "true"
+        project = "roboshop"
     }
 }
 
